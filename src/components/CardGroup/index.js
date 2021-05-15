@@ -1,10 +1,9 @@
 import React from 'react'
 import Card from '../Card'
 import { PokemonContext } from '../../Context/PokemonContext'
-import { Link } from 'react-router-dom'
 
 const Index = () => {
-  const { pokemons, selectedPokemon } = React.useContext(PokemonContext)
+  const { pokemons } = React.useContext(PokemonContext)
 
   return (
     <div className="container-fluid">

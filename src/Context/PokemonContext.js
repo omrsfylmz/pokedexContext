@@ -14,7 +14,7 @@ const PokemonApp = ({ children }) => {
   useEffect(() => {
     async function fetchData() {
       let response = await getAllPokemon(url)
-      let pokemon = await loadPokemon(response.results)
+      await loadPokemon(response.results)
     }
     fetchData()
   }, [])

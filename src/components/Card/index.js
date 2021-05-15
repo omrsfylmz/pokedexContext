@@ -6,7 +6,7 @@ const Index = ({ pokemon }) => {
   const arr = []
   const statsArr = []
   const { sprites, name, moves, weight, stats } = pokemon
-  stats.map((el) => {
+  stats.forEach((el) => {
     const status = {
       name: el.stat.name,
       base_stat: el.base_stat
