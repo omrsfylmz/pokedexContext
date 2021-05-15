@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+.nav-links .fav {
+  margin-right: 20px;
+}
