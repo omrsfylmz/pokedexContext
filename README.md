@@ -42,4 +42,4 @@ npm start
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### If you want to conribution this app or fix some issue please open new PR.
+### If you want to contribute to this app or fix some issue please open a new PR.
