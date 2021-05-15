@@ -18,6 +18,7 @@ Click [here](pokedexapp.vercel.app) to see the app
 - [x] React Bootstrap
 - [x] Eslint
 - [x] React Modal
+- [x] Context Api
 
 ## Get Started
 
