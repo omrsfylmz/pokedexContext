@@ -10,7 +10,7 @@ const PokemonApp = ({ children }) => {
   const [favorites, setFavorites] = useState([])
   const [pokemons, setPokemons] = useState()
   const [selectedPokemon, setSelectedPokemon] = useState()
-  const url = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=20'
+  const url = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=150'
   useEffect(() => {
     async function fetchData() {
       let response = await getAllPokemon(url)
